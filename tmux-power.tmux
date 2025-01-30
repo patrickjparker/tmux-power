@@ -34,7 +34,8 @@ time_format=$(tmux_get @tmux_power_time_format '%T')
 date_format=$(tmux_get @tmux_power_date_format '%F')
 
 # short for Theme-Colour
-TC='#{?client_prefix,#2396F3,#3D81DA}'
+TC='#{?client_prefix,#23A9FC,#3D81DA}'
+# less intense selected version 2396F3
 # more blue combo: 2AABFC - 4091E3
 # 3F87E2 normal mode old color - more purple
 
